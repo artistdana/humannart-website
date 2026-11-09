@@ -193,6 +193,10 @@ table.price{width:100%;min-width:720px;border-collapse:collapse;font-size:15px}
 @media (max-width:640px){.flow div{grid-template-columns:1fr;gap:4px}}
 .apply{display:inline-block;margin-top:40px;padding:16px 30px;background:var(--sc);color:var(--on);font-size:12.5px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;transition:opacity .2s}
 .apply:hover{opacity:.8}
+.film-ctas{display:flex;flex-wrap:wrap;align-items:center;gap:16px 28px;margin-top:40px}
+.film-ctas .apply{margin-top:0}
+.more-link{font-size:14.5px;font-weight:500;color:var(--sc)}
+.flow span:first-child{font-weight:500;color:var(--sc)}
 
 /* about */
 .statement{margin:0 0 64px;font-weight:500;font-size:clamp(24px,2.6vw,36px);line-height:1.4;letter-spacing:-.015em;max-width:24em}
@@ -329,46 +333,21 @@ footer.foot{margin-top:120px;border-top:2px solid var(--sc);background:color-mix
         </div>
       </div>
 
-      <div class="event">
-        <div>
-          <span class="lbl">Open Call · Until Nov 19</span>
-          <h3>무료 제작 3명,<br>초대장 특가 15명</h3>
-          <p>응모해 주신 이야기를 보고 세 분을 선정해 작가 소개 영상을 무료로 만들어 드립니다. 추첨이 아니라 작가님이 들려주신 영상 이야기로 선정합니다.</p>
-          <p>응모만 해도 초대장을 받을 수 있어요. 6장은 선정되지 않은 응모자께 발표일에, 9장은 무료 제작 작가 세 분이 동료 작가를 3명씩 태그해 건넵니다. 받은 날부터 한 달간 특가로 신청할 수 있습니다.</p>
-          <p>사진 없이 질문에만 답하면 됩니다. 1~2분.</p>
-          <a class="cta" href="https://forms.gle/kQzq4pc93ixKypbE9" target="_blank" rel="noopener">응모하기</a>
-        </div>
-        <ol>
-          <li><b>Now</b><span>응모 접수</span></li>
-          <li><b>11.19 Thu</b><span>응모 마감 (밤 12시)</span></li>
-          <li><b>11.21 Sat</b><span>당첨 발표 · 무료 제작 3명, 응모자 6명에게 초대장</span></li>
-          <li><b>After</b><span>자료 접수 · 인터뷰 · 영상 제작</span></li>
-          <li><b>Release</b><span>선정 작가가 동료 작가 3명씩 태그해 초대장 전달</span></li>
-        </ol>
-      </div>
-
       <div class="sec-row sub">
-        <span class="lbl">Packages</span>
+        <span class="lbl">Process</span>
         <div class="body">
-          <div class="tw">
-            <table class="price">
-              <thead><tr><th>Package</th><th>구성</th><th>정가</th><th>초대장 특가</th></tr></thead>
-              <tbody>
-                <tr><td class="nm">기본</td><td class="c">작가 소개 영상 1종 (60초 내외), 세로 또는 정사각 택1, 수정 2회</td><td class="p">250,000</td><td class="s">150,000</td></tr>
-                <tr><td class="nm">스탠다드</td><td class="c">보내주신 자료로 소개 내용 작성, 90초 내외, 세로·정사각 2종, 수정 3회</td><td class="p">450,000</td><td class="s">300,000</td></tr>
-                <tr><td class="nm">스탠다드 플러스<small>Recommended</small></td><td class="c">인터뷰 + 소개 내용 작성, 120초 내외, 세로·정사각 2종, 수정 3회</td><td class="p">650,000</td><td class="s">450,000</td></tr>
-                <tr><td class="nm">프리미엄</td><td class="c">스탠다드 플러스 + 같은 디자인 아이덴티티의 작가 소개 PPT와 이력서</td><td class="p">900,000</td><td class="s">600,000</td></tr>
-              </tbody>
-            </table>
-          </div>
-          <p class="fine">KRW · VAT 별도 · 초대장 특가는 초대장을 받은 작가만, 받은 날부터 한 달 (15매 한정) · 가로형 16:9는 별도 문의</p>
           <div class="flow">
-            <div><span>기본</span><span>자료 접수 → 제작과 수정 2회 → 납품</span></div>
-            <div><span>스탠다드</span><span>자료 접수 → 대본 확정 → 제작과 수정 3회 → 납품</span></div>
-            <div><span>스탠다드 플러스 · 프리미엄</span><span>자료 접수 → 인터뷰 10분 → 대본 확정 → 제작과 수정 3회 → 납품</span></div>
+            <div><span>01 자료 접수</span><span>이력, 작품 사진과 캡션, 활동 사진, 작가노트를 받습니다.</span></div>
+            <div><span>02 인터뷰</span><span>10분 내외의 대화로 작가님의 언어를 찾습니다.</span></div>
+            <div><span>03 대본 확정</span><span>장면 순서, 문장, 사진 배치를 먼저 함께 확정합니다.</span></div>
+            <div><span>04 제작과 수정</span><span>고화질 보정과 배경음악을 더해 영상으로 완성합니다.</span></div>
+            <div><span>05 납품</span><span>세로형 9:16, 정사각 1:1, 필요에 따라 가로형 16:9로 전달합니다.</span></div>
           </div>
-          <p class="fine">납품 일정은 작가와 협의합니다. 자료는 원본 파일로 dream8628@naver.com에 보내 주세요.</p>
-          <a class="apply" href="https://forms.gle/kQzq4pc93ixKypbE9" target="_blank" rel="noopener">Apply — 신청하기</a>
+          <p class="fine">제작 비용과 일정은 작업 범위에 따라 상담 후 안내합니다.</p>
+          <div class="film-ctas">
+            <a class="apply" href="https://forms.gle/kQzq4pc93ixKypbE9" target="_blank" rel="noopener">Apply — 제작 문의</a>
+            <a class="ul more-link" href="https://app.notion.com/p/artistdana/HUMAN-ART-4129d847f93580d6bc19dd45ce832b85" target="_blank" rel="noopener">진행 중인 공모 보기 →</a>
+          </div>
         </div>
       </div>
     </div>
