@@ -129,7 +129,7 @@ section.sec{padding-block:120px 40px}
 .alist:hover a{color:var(--muted)}
 .alist a:hover{color:var(--sc)}
 .alist li{border-top-color:var(--line)}
-.preview{position:fixed;left:0;top:0;width:220px;aspect-ratio:1;pointer-events:none;z-index:20;opacity:0;transition:opacity .2s;background:var(--soft)}
+.preview{position:fixed;left:0;top:0;width:110px;aspect-ratio:1;pointer-events:none;z-index:20;opacity:0;transition:opacity .2s;background:var(--soft)}
 .preview img{width:100%;height:100%;object-fit:cover;display:block}
 .preview.on{opacity:1}
 @media (max-width:1000px){.alist{columns:3}}
@@ -493,7 +493,7 @@ list.forEach(([n,i])=>{
 });
 document.addEventListener("mousemove",e=>{
   if(!pv.classList.contains("on"))return;
-  const x=Math.min(e.clientX+24, innerWidth-240), y=Math.min(e.clientY+16, innerHeight-240);
+  const x=Math.min(e.clientX+24, innerWidth-130), y=Math.min(e.clientY+16, innerHeight-130);
   pv.style.transform=`translate(${x}px,${y}px)`;
 });
 
